@@ -29,11 +29,12 @@ Dumping all known drop reasons,
 
 ```
 $ drdump
-     0 = RX_QUEUED
-     1 = RX_CONTINUE
+     0 = SKB_NOT_DROPPED_YET
+     1 = SKB_CONSUMED
      2 = SKB_DROP_REASON_NOT_SPECIFIED
      3 = SKB_DROP_REASON_NO_SOCKET
      4 = SKB_DROP_REASON_PKT_TOO_SMALL
+     5 = SKB_DROP_REASON_TCP_CSUM
 ...
 ```
 
