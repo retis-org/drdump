@@ -5,6 +5,9 @@ kernel ones), which can also resolve reasons (raw value to enum variant) and
 generate bpftrace and stap scripts to dump drop reasons from the `skb:kfree_skb`
 tracepoint.
 
+When using the running kernel BTF files, `drdump` has to run on the target
+machine or a machine using the same kernel and modules!
+
 ## Installing
 
 `drdump` is configured to be build as a static binary when building for x86_64.
