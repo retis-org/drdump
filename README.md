@@ -46,7 +46,7 @@ $ drdump -r 65900`
 Unknown reason 65900 (sub-system: SKB_DROP_REASON_SUBSYS_MAC80211_UNUSABLE)
 ```
 
-Generating a bpftrace script to dump drop reasons,
+Generating a bpftrace script to monitor drop reasons,
 
 ```
 $ drdump -f bpftrace > drop.bt
@@ -55,7 +55,7 @@ $ ./drop.bt
 ...
 ```
 
-Generating a stap script to dump drop reasons,
+Generating a stap script to monitor drop reasons,
 
 ```
 $ drdump -f stap > drop.stp
