@@ -13,6 +13,7 @@ tracepoint.
 $ git clone https://github.com/retis-org/drdump.git
 $ cd drdump
 $ cargo build --release
+$ ./target/x86_64-unknown-linux-gnu/release/drdump
 ```
 
 Pre-built static binaries are available on the
