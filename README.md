@@ -11,6 +11,7 @@ machine or a machine using the same kernel and modules!
 ## Installing
 
 `drdump` is configured to be build as a static binary when building for x86_64.
+On Fedora and RHEL, you should install `glibc-static` before building.
 
 ```
 $ git clone https://github.com/retis-org/drdump.git
