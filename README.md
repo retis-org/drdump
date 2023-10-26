@@ -15,7 +15,7 @@ $ cd drdump
 $ cargo build --release
 ```
 
-A pre-build binaries are available on the
+Pre-built static binaries are available on the
 [release page](https://github.com/retis-org/drdump/releases/).
 
 ## Usage
