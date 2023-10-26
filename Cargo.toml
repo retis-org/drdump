@@ -1,0 +1,13 @@
+[package]
+name = "drdump"
+version = "0.1.0"
+edition = "2021"
+description = "Small utility to work with skb drop reasons given a set of BTF files (defaulting to the running kernel ones)"
+repository = "https://github.com/retis-org/drdump"
+homepage = "https://github.com/retis-org/drdump"
+readme = "README.md"
+
+[dependencies]
+anyhow = "1.0"
+btf-rs = { git = "https://github.com/retis-org/btf-rs", rev = "78cbe9edd750" }
+clap = { version = "4.4", features = ["derive"] }
